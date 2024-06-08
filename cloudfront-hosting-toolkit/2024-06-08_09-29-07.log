@@ -1,0 +1,49 @@
+══════════════════════
+npx cdk deploy  hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq --context config-path=/Users/alessandrovolpicella/repo/cloudfront-toolkit-vite/cloudfront-hosting-toolkit   
+
+
+══════════════════════
+
+
+✨  Synthesis time: 1.17s
+
+hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq:  start: Building 723169dfa4fee609952b9b4880e7f2434a0acdae670b53db34f9ce8c40774939:058264429978-us-east-1
+hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq:  success: Built 723169dfa4fee609952b9b4880e7f2434a0acdae670b53db34f9ce8c40774939:058264429978-us-east-1
+hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq:  start: Publishing 723169dfa4fee609952b9b4880e7f2434a0acdae670b53db34f9ce8c40774939:058264429978-us-east-1
+hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq:  success: Published 723169dfa4fee609952b9b4880e7f2434a0acdae670b53db34f9ce8c40774939:058264429978-us-east-1
+hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq: deploying... [1/1]
+hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq: creating CloudFormation changeset...
+hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq | 0/6 | 09:29:29 | CREATE_IN_PROGRESS   | AWS::SSM::Parameter                  | RepositoryConnection/SSMConnectionArn (RepositoryConnectionSSMConnectionArn1E74102B) Resource creation Initiated
+hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq | 1/6 | 09:29:29 | CREATE_COMPLETE      | AWS::SSM::Parameter                  | RepositoryConnection/SSMConnectionArn (RepositoryConnectionSSMConnectionArn1E74102B) 
+hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq | 1/6 | 09:29:16 | REVIEW_IN_PROGRESS   | AWS::CloudFormation::Stack           | hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq User Initiated
+hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq | 1/6 | 09:29:23 | CREATE_IN_PROGRESS   | AWS::CloudFormation::Stack           | hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq User Initiated
+hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq | 1/6 | 09:29:25 | CREATE_IN_PROGRESS   | AWS::SSM::Parameter                  | RepositoryConnection/SSMConnectionRegion (RepositoryConnectionSSMConnectionRegion4029CE52) 
+hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq | 1/6 | 09:29:25 | CREATE_IN_PROGRESS   | AWS::CDK::Metadata                   | CDKMetadata/Default (CDKMetadata) 
+hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq | 1/6 | 09:29:25 | CREATE_IN_PROGRESS   | AWS::SSM::Parameter                  | RepositoryConnection/SSMConnectionName (RepositoryConnectionSSMConnectionNameAB648C27) 
+hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq | 1/6 | 09:29:25 | CREATE_IN_PROGRESS   | AWS::CodeStarConnections::Connection | RepositoryConnection/MyCfnConnectioncloudfront-toolkit-vite (RepositoryConnectionMyCfnConnectioncloudfronttoolkitvite4E4F31BA) 
+hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq | 1/6 | 09:29:26 | CREATE_IN_PROGRESS   | AWS::CDK::Metadata                   | CDKMetadata/Default (CDKMetadata) Resource creation Initiated
+hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq | 1/6 | 09:29:26 | CREATE_IN_PROGRESS   | AWS::SSM::Parameter                  | RepositoryConnection/SSMConnectionName (RepositoryConnectionSSMConnectionNameAB648C27) Resource creation Initiated
+hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq | 1/6 | 09:29:26 | CREATE_IN_PROGRESS   | AWS::SSM::Parameter                  | RepositoryConnection/SSMConnectionRegion (RepositoryConnectionSSMConnectionRegion4029CE52) Resource creation Initiated
+hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq | 2/6 | 09:29:26 | CREATE_COMPLETE      | AWS::CDK::Metadata                   | CDKMetadata/Default (CDKMetadata) 
+hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq | 2/6 | 09:29:26 | CREATE_IN_PROGRESS   | AWS::CodeStarConnections::Connection | RepositoryConnection/MyCfnConnectioncloudfront-toolkit-vite (RepositoryConnectionMyCfnConnectioncloudfronttoolkitvite4E4F31BA) Resource creation Initiated
+hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq | 3/6 | 09:29:27 | CREATE_COMPLETE      | AWS::SSM::Parameter                  | RepositoryConnection/SSMConnectionName (RepositoryConnectionSSMConnectionNameAB648C27) 
+hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq | 4/6 | 09:29:27 | CREATE_COMPLETE      | AWS::SSM::Parameter                  | RepositoryConnection/SSMConnectionRegion (RepositoryConnectionSSMConnectionRegion4029CE52) 
+hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq | 5/6 | 09:29:27 | CREATE_COMPLETE      | AWS::CodeStarConnections::Connection | RepositoryConnection/MyCfnConnectioncloudfront-toolkit-vite (RepositoryConnectionMyCfnConnectioncloudfronttoolkitvite4E4F31BA) 
+hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq | 5/6 | 09:29:28 | CREATE_IN_PROGRESS   | AWS::SSM::Parameter                  | RepositoryConnection/SSMConnectionArn (RepositoryConnectionSSMConnectionArn1E74102B) 
+hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq | 6/6 | 09:29:30 | CREATE_COMPLETE      | AWS::CloudFormation::Stack           | hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq 
+
+ ✅  hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq
+
+✨  Deployment time: 20.63s
+
+Outputs:
+hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq.ExportsOutputFnGetAttRepositoryConnectionMyCfnConnectioncloudfronttoolkitvite4E4F31BAConnectionArn6BEC76AF = arn:aws:codestar-connections:us-east-1:058264429978:connection/5528aaef-e97a-4ff2-b9b0-5dcc7674e427
+hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq.RepositoryConnectionConnectionArn087CB8E2 = arn:aws:codestar-connections:us-east-1:058264429978:connection/5528aaef-e97a-4ff2-b9b0-5dcc7674e427
+hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq.RepositoryConnectionConnectionNameFD2EABB9 = cloudfront-toolkit-vite-main-aws
+hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq.RepositoryConnectionHostingRegion1B4A18AD = us-east-1
+Stack ARN:
+
+✨  Total time: 21.81s
+
+arn:aws:cloudformation:us-east-1:058264429978:stack/hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq/cf84ad20-2568-11ef-9336-0affe6e89ad5
+

@@ -1,0 +1,12 @@
+══════════════════════
+npx cdk bootstrap --context config-path=/Users/alessandrovolpicella/repo/cloudfront-toolkit-vite/cloudfront-hosting-toolkit 
+
+
+══════════════════════
+
+ ⏳  Bootstrapping environment aws://058264429978/us-east-1...
+Trusted accounts for deployment: (none)
+Trusted accounts for lookup: (none)
+Using default execution policy of 'arn:aws:iam::aws:policy/AdministratorAccess'. Pass '--cloudformation-execution-policies' to customize.
+ ✅  Environment aws://058264429978/us-east-1 bootstrapped (no changes).
+

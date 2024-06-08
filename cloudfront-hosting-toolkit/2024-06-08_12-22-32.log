@@ -1,0 +1,26 @@
+══════════════════════
+npx cdk deploy  hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq --context config-path=/Users/alessandrovolpicella/repo/cloudfront-toolkit-vite/cloudfront-hosting-toolkit   
+
+
+══════════════════════
+
+
+✨  Synthesis time: 1.27s
+
+hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq: deploying... [1/1]
+
+ ✅  hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq (no changes)
+
+✨  Deployment time: 1.06s
+
+Outputs:
+hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq.ExportsOutputFnGetAttRepositoryConnectionMyCfnConnectioncloudfronttoolkitvite4E4F31BAConnectionArn6BEC76AF = arn:aws:codestar-connections:us-east-1:058264429978:connection/9ab62c0f-1d35-4f68-8ce4-ab04e982d823
+hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq.RepositoryConnectionConnectionArn087CB8E2 = arn:aws:codestar-connections:us-east-1:058264429978:connection/9ab62c0f-1d35-4f68-8ce4-ab04e982d823
+hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq.RepositoryConnectionConnectionNameFD2EABB9 = cloudfront-toolkit-vite-main-aws
+hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq.RepositoryConnectionHostingRegion1B4A18AD = us-east-1
+Stack ARN:
+
+✨  Total time: 2.33s
+
+arn:aws:cloudformation:us-east-1:058264429978:stack/hosting-connection-cloudfront-toolkit-vite-main-awsfundamentals-hq/92178030-2580-11ef-9aed-0eb81601b861
+
